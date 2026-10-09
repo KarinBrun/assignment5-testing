@@ -1,3 +1,4 @@
+import { MemoryRouter } from 'react-router-dom';
 import Hero from '../components/Hero';
 
 function HomePage() {

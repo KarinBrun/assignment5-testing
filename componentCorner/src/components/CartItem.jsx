@@ -8,6 +8,7 @@ function CartItem(props) {
         <p className="cart-item-price">
           ${props.price.toFixed(2)}
         </p>
+        <p>Quantity: {props.quantity}</p>
       </div>
 
       <button 
