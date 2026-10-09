@@ -1,0 +1,36 @@
+.footer {
+  background: slategray;
+  color: white;
+  padding: 35px 20px 20px;
+  margin-top: auto;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer-store {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.footer-content p {
+  font-size: 14px;
+  color: #f0f0f0;
+}
+
+.footer-bottom {
+  max-width: 900px;
+  margin: 25px auto 0;
+  padding-top: 15px;
+  border-top: 1px solid #9aa3ab;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  color: #e0e0e0;
+}

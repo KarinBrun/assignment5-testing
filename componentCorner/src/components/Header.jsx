@@ -1,0 +1,22 @@
+import { Link } from 'react-router-dom';
+import './Header.css';
+
+function Header(props) {
+  return (
+    <header className="app-header">
+      <h1 className="title">{props.store}</h1>
+
+      <nav className="nav-menu">
+        <Link to="/" className="nav-link">Home</Link>
+        <Link to="/products" className="nav-link">Products</Link>
+      </nav>
+
+      <Link to="/cart" className="cart-container">
+        <span className="cart-icon">🛒</span> 
+        <span className="cart-count">{props.cartCount}</span>
+      </Link>
+    </header>
+  );
+}
+
+export default Header;

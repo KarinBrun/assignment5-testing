@@ -1,0 +1,38 @@
+.hero {
+  background: midnightblue;
+  color: white;
+  min-height: 350px;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #e8e8e8;
+}
+
+.cta {
+  background: coral;
+  color: white;
+  text-decoration: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.cta:hover {
+  background: lightcoral;
+  transform: translateY(-2px);
+}
